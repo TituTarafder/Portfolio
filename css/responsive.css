@@ -1,0 +1,197 @@
+/*		Default Layout: 992px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+*/
+
+
+
+
+
+
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	#about_top{border-bottom:1px solid #1EABF5;}
+	#top_left{display:block;overflow:hidden;float:none;margin-top:10px;text-align:center;}
+	#top_middle{display:inline-block;float:left;text-align:left;}
+	#top_right{display:inline-block;float:right;text-align:left;font-size:13px;font-weight: bold;
+	border-left: 2px solid #1EABF5;
+	padding: 5px;
+	height: 78px;}
+	#about_bottom{margin-top:200px;}
+	
+	.card{
+		width:80%;	
+		margin:2% 2% 2% 10%;
+	}
+	
+	#contact address {font-size:59%;margin-left:0%;height:322px;width:78%;}
+	#contact address .fa{margin-right:7px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+
+@media only screen and (max-width: 479px){
+	h2{font-size:120%}
+	#home h1{font-size:170%}
+	.navbar-header span{font-size:60%}
+#about_top{border-bottom:1px solid #1EABF5;}
+	#top_left{display:block;overflow:hidden;float:none;margin-top:10px;text-align:center;}
+	#top_middle{display:block;float:center;text-align:center;width:100%;height:auto;margin:0 auto;margin-left:0px;}
+	#top_right{display:block;float:center;text-align:center;font-size:13px;font-weight: bold;
+	border-left: 0px solid #1EABF5;
+	padding: 0px;
+	height: auto;width:100%;margin-top: 15px;
+	margin-right: 0px;}
+	
+	
+	#skills{float:left;margin:13px 0px 0px 10%;display:block;}
+	#skills h2{float:right;display:inline;font-size:109%;}
+	#skills img{float:right;width:24px;display:inline;height: -8%;height: 21px;}
+	
+	.bar_container{width:80%}
+	.mapouter{float:bottom;position:relative;text-align:center;height:320px;width:40%; margin-right: 8%;}
+.mapouter{position:relative;text-align:center; height:18%;width:79%;margin: 16% 18% 0% -10%;}.gmap_canvas {overflow:hidden;background:none!important;height:320px;width:120%;float:center;}
+	
+	
+	#contact address
+	{
+		border-right: 0px solid #505050;
+		padding-top: 30px;
+		float:center;
+		width: 72%;
+		font-size:72%;
+		height:auto;
+		display:block;
+		margin: 0 0 0 11%;
+		text-align: center;
+	}
+	#contact address .fa{display:block;margin: 0 auto;width: 32px;
+		height: 31px;
+		line-height: 29px;}
+	.card{
+		width:80%;	
+		margin:2% 2% 2% 10%;
+		
+	}
+	
+	.card_details{margin-left:-19px;}
+	
+}
+
+
+
+
+
+
+
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+
+	
+	#about_top{border-bottom:1px solid #1EABF5;height: 195px;margin-bottom: -251px;padding-bottom: -53px;}
+	#top_left{display:block;overflow:hidden;float:none;margin-top:10px;text-align:center;}
+	#top_middle{display:block;float:center;text-align:center;width:100%;height:auto;margin:0 auto;margin-left:0px;}
+	#top_right{display:block;float:center;text-align:center;font-size:13px;font-weight: bold;
+	border-left: 0px solid #1EABF5;
+	padding: 0px;
+	height: auto;width:100%;margin-bottom:7%;margin-top: 15px;
+	margin-right: 0px;}
+	#about_bottom{margin-top:94px;}
+	
+	.card{
+		width:80%;	
+		margin:2% 2% 2% 10%;
+	}
+	
+.mapouter{float:bottom;position:relative;text-align:center;height:320px;width:40%; margin-right: 8%;}
+.mapouter{position:relative;text-align:center; height:50%;width:79%;margin: 3% 18% 0% -10%;}.gmap_canvas {overflow:hidden;background:none!important;height:320px;width:120%;float:center;}
+#contact address
+	{
+		border-right: 0px solid #505050;
+		padding-top: 30px;
+		float:center;
+		width: 74%;
+		font-size:84%;
+		height:auto;
+		display:block;
+		margin: 0 0 0 11%;
+		text-align: center;
+	}
+	#contact address .fa{display:block;margin: 0 auto;width: 32px;
+		height: 31px;
+		line-height: 29px;}
+	
+	
+}
+
+		
+
+
+
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
